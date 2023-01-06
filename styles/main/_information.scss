@@ -1,0 +1,37 @@
+.information {
+    margin-top: 180px;
+
+    &__quotation-wrapper {
+        border: 2px solid #FCD54C;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    &__quotation {
+        font-size: 30px;
+        line-height: 160%;
+        margin: 0;
+    }
+
+    &__quotation-name {
+        color: #FCD54C;
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 65px;
+    }
+
+    &__info {
+        max-width: 540px;
+    }
+
+    &__text {
+        margin-top: 70px;
+        margin-bottom: 0;
+        font-size: 18px;
+    }
+}

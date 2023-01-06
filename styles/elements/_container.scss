@@ -1,7 +1,15 @@
-.container{
+.container {
     max-width: 1920px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 60px;
     padding-right: 60px;
+
+    &_medium {
+        max-width: 1230px;
+    }
+
+    &_xs {
+        max-width: 850px;
+    }
 }

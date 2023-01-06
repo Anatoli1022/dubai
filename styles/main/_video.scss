@@ -1,0 +1,32 @@
+.video {
+    margin-top: 90px;
+
+    .video__video-wrapper {
+        position: relative;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .video__image {
+        display: block;
+        max-width: 100%;
+    }
+
+    .video__button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%);
+        cursor: pointer;
+        width: 121px;
+        height: 121px;
+        border-radius: 100%;
+        border: none;
+        background: #FCD54C;
+    }
+
+
+}

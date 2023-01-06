@@ -317,7 +317,8 @@ template {
 body {
   font-family: "Work Sans", "Roboto", "Space Grotesk";
   background-color: #272727;
-  line-height: 1.8;
+  line-height: 160%;
+  color: #E8E8E8;
 }
 
 .container {
@@ -326,6 +327,12 @@ body {
   margin-right: auto;
   padding-left: 60px;
   padding-right: 60px;
+}
+.container_medium {
+  max-width: 1230px;
+}
+.container_xs {
+  max-width: 850px;
 }
 
 .header {
@@ -411,4 +418,87 @@ body {
 .hero {
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.apartment {
+  margin-top: 70px;
+  margin-bottom: 90px;
+}
+.apartment__expertise {
+  font-weight: 600;
+  font-size: 18px;
+  color: #FCD54C;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.apartment__title {
+  font-weight: 700;
+  font-size: 70px;
+  margin-top: 40px;
+  margin-bottom: 0;
+  line-height: 99%;
+}
+.apartment__text {
+  margin-top: 35px;
+  margin-bottom: 0;
+}
+
+.video {
+  margin-top: 90px;
+}
+.video .video__video-wrapper {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+}
+.video .video__image {
+  display: block;
+  max-width: 100%;
+}
+.video .video__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  cursor: pointer;
+  width: 121px;
+  height: 121px;
+  border-radius: 100%;
+  border: none;
+  background: #FCD54C;
+}
+
+.information {
+  margin-top: 180px;
+}
+.information__quotation-wrapper {
+  border: 2px solid #FCD54C;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.information__quotation {
+  font-size: 30px;
+  line-height: 160%;
+  margin: 0;
+}
+.information__quotation-name {
+  color: #FCD54C;
+}
+.information__wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 65px;
+}
+.information__info {
+  max-width: 540px;
+}
+.information__text {
+  margin-top: 70px;
+  margin-bottom: 0;
+  font-size: 18px;
 }/*# sourceMappingURL=main.css.map */
