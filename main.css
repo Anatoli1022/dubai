@@ -328,6 +328,9 @@ body {
   padding-left: 60px;
   padding-right: 60px;
 }
+.container__lg {
+  max-width: 1920px;
+}
 .container_medium {
   max-width: 1230px;
 }
@@ -419,6 +422,13 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+.hero__background {
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
 
 .apartment {
   margin-top: 70px;
@@ -453,7 +463,7 @@ body {
 }
 .video .video__image {
   display: block;
-  max-width: 100%;
+  width: 100%;
 }
 .video .video__button {
   display: flex;
@@ -488,6 +498,7 @@ body {
 }
 .information__quotation-name {
   color: #FCD54C;
+  font-style: normal;
 }
 .information__wrapper {
   display: flex;
@@ -501,4 +512,64 @@ body {
   margin-top: 70px;
   margin-bottom: 0;
   font-size: 18px;
+}
+
+.contact {
+  display: block;
+  margin-top: 115px;
+  text-align: center;
+  color: #272727;
+}
+.contact__container {
+  position: relative;
+  padding-top: 85px;
+  padding-bottom: 85px;
+}
+.contact__background {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.contact__text {
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.contact__title {
+  margin-top: 15px;
+  margin-bottom: 0;
+  font-size: 120px;
+  line-height: 60%;
+}
+.contact__form {
+  margin-top: 55px;
+  border: none;
+}
+.contact__form-mail {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 40px;
+  padding-right: 95px;
+  border: none;
+  outline: none;
+}
+.contact__form-buttom {
+  color: #FFFFFF;
+  background-color: #272727;
+  cursor: pointer;
+  border: none;
+  margin-left: -7px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 65px;
+  padding-right: 65px;
+}
+.contact__form-buttom:hover {
+  color: #FCD54C;
 }/*# sourceMappingURL=main.css.map */
