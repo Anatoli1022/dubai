@@ -1,5 +1,6 @@
 .articles {
     margin-top: 140px;
+    min-height: 470px;
 
     &__container {
         display: flex;
@@ -34,14 +35,10 @@
         padding-left: 0;
     }
 
-
-
-
     &__content-image {
         position: relative;
         min-width: 350px;
     }
-
 
     &__image {
         position: absolute;
@@ -105,7 +102,8 @@
         font-size: 16px;
         font-weight: 600;
         margin-top: 80px;
-        &:hover{
+
+        &:hover {
             background-color: #FCD54C;
             color: #272727;
         }
