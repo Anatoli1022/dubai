@@ -1,7 +1,6 @@
 .articles {
     margin-top: 140px;
     min-height: 470px;
-    margin-bottom: 100px;
 
     &__container {
         display: flex;
@@ -24,8 +23,6 @@
             color: #FCD54C;
         }
     }
-
-
 
     &__content {
         display: flex;
