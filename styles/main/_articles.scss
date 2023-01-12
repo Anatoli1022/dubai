@@ -43,7 +43,7 @@
         max-width: 350px;
         left: 0;
         top: 0;
-        z-index: -1;
+        z-index: -2;
     }
 
     &__image-title {
@@ -52,6 +52,7 @@
         color: #FFFFFF;
         margin-top: 265px;
         margin-left: 38px;
+        z-index: -1;
     }
 
     &__content-info {
@@ -89,7 +90,6 @@
         margin-top: 30px;
         margin-bottom: 0;
         font-size: 16px;
-        line-height: 162%;
         color: #929292;
     }
 
