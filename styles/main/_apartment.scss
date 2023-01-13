@@ -23,5 +23,27 @@
         margin-top: 35px;
         margin-bottom: 0;
         color: #E8E8E8;
+        font-size: 18px;
     }
+}
+
+@media only screen and (max-width : 1023px) {
+
+    .apartment {
+        &__expertise {
+            font-size: 16px;
+    
+        }
+    
+        &__title {
+            font-size: 30px;
+            margin-top: 14px;
+        }
+    
+        &__text {
+            margin-top: 23px;
+            font-size: 14px;
+        }
+    }
+
 }

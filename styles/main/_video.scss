@@ -1,18 +1,18 @@
 .video {
     margin-top: 90px;
 
-    .video__video-wrapper {
+    &__video-wrapper {
         position: relative;
         margin-right: auto;
         margin-left: auto;
     }
 
-    .video__image {
+    &__image {
         display: block;
         width: 100%;
     }
 
-    .video__button {
+    &__button {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -27,6 +27,32 @@
         border: none;
         background: #FCD54C;
     }
+    &__button-play{
+        max-width: 27px;
+    }
+
+}
 
 
+@media only screen and (max-width : 1023px) {
+    .video {
+    margin-top: 70px;
+
+  
+
+    &__image {
+        display: block;
+    }
+
+    &__button {
+        width: 52px;
+        height: 52px;
+      
+    }
+    &__button-play{
+        max-width: 12px;
+    }
+
+}
+    
 }

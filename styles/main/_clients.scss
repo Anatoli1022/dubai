@@ -34,6 +34,7 @@
         position: absolute;
         right: 40px;
         top: 50px;
+        max-width: 54px;
     }
 
     &__name {
@@ -78,4 +79,8 @@
     }
 
 
+}
+
+@media only screen and (max-width : 1023px) {
+    
 }

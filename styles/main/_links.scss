@@ -7,6 +7,7 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
+        max-width: 184px;
     }
 
     &__container {
@@ -76,4 +77,8 @@
             transition: 0.1s;
         }
     }
+}
+
+@media only screen and (max-width : 1023px) {
+    
 }
