@@ -1,7 +1,6 @@
 .projects {
     margin-top: 105px;
 
-
     &__container {
         display: flex;
         justify-content: space-around;
@@ -74,53 +73,50 @@
 
     &__content-image {
         position: relative;
+    }
 
+    &__content-image:hover &__content-info {
+        opacity: 1;
     }
 
     &__image {
-        position: absolute;
-        left: 0;
-        top: 0;
         z-index: -2;
+        max-width: 430px;
     }
 
     &__image-title {
         position: absolute;
         font-size: 32px;
         color: #FFFFFF;
-        margin-top: 451px;
-        margin-left: 41px;
-        z-index: -1;
+        bottom: 50px;
+        left: 40px;
+        z-index: 0;
     }
 
     &__content-info {
+        top: 0;
+        position: absolute;
         padding-top: 46px;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 38px;
+        padding-right: 60px;
         padding-bottom: 44px;
         border: 2px solid #FCD54C;
         text-align: left;
         background-color: #FCD54C;
         opacity: 0;
         transition: 0.2s;
-
-        &:hover {
-            opacity: 1;
-        }
-
     }
 
     &__info-title {
         font-weight: 700;
         font-size: 32px;
-        margin-bottom: 0;
         color: #272727;
         margin-top: 0;
         margin-bottom: 0;
     }
 
     &__info-text {
-        margin-top: 80px;
+        margin-top: 75px;
         margin-bottom: 0;
         font-size: 22px;
         color: #272727;
@@ -133,7 +129,7 @@
         font-size: 20px;
         color: #272727;
         text-decoration: none;
-        margin-top: 200px;
+        margin-top: 110px;
     }
 
 
@@ -169,5 +165,67 @@
 
 
 @media only screen and (max-width : 1023px) {
-    
+
+    .projects {
+        margin-top: 100px;
+
+        &__title {
+            font-size: 30px;
+        }
+
+        &__list-button {
+            font-size: 12px;
+        }
+
+        &__link {
+            font-size: 12px;
+            margin-left: 30px;
+        }
+
+        &__image {
+            max-width: 165px;
+        }
+
+        &__image-title {
+            font-size: 18px;
+            bottom: 25px;
+            left: 15px;
+        }
+
+        &__content-info {
+            padding-top: 15px;
+            padding-left: 10px;
+            padding-right: 20px;
+            padding-bottom: 10px;
+        }
+
+        &__info-title {
+            font-size: 18px;
+        }
+
+        &__info-text {
+            margin-top: 15px;
+            font-size: 12px;
+            line-height: 14px;
+
+        }
+
+        &__info-link {
+            font-size: 12px;
+            margin-top: 20px;
+        }
+
+        .swiper-slide {
+            max-width: 165px;
+        }
+
+        &__swiper-pagination {
+            margin-top: 20px;
+
+        }
+
+        .swiper-free-mode>.swiper-wrapper {
+            margin-top: 25px;
+        }
+    }
 }

@@ -1474,24 +1474,27 @@ body.touch .header__menu-list.open {
 .projects__content-image {
   position: relative;
 }
+.projects__content-image:hover .projects__content-info {
+  opacity: 1;
+}
 .projects__image {
-  position: absolute;
-  left: 0;
-  top: 0;
   z-index: -2;
+  max-width: 430px;
 }
 .projects__image-title {
   position: absolute;
   font-size: 32px;
   color: #FFFFFF;
-  margin-top: 451px;
-  margin-left: 41px;
-  z-index: -1;
+  bottom: 50px;
+  left: 40px;
+  z-index: 0;
 }
 .projects__content-info {
+  top: 0;
+  position: absolute;
   padding-top: 46px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 38px;
+  padding-right: 60px;
   padding-bottom: 44px;
   border: 2px solid #FCD54C;
   text-align: left;
@@ -1499,19 +1502,15 @@ body.touch .header__menu-list.open {
   opacity: 0;
   transition: 0.2s;
 }
-.projects__content-info:hover {
-  opacity: 1;
-}
 .projects__info-title {
   font-weight: 700;
   font-size: 32px;
-  margin-bottom: 0;
   color: #272727;
   margin-top: 0;
   margin-bottom: 0;
 }
 .projects__info-text {
-  margin-top: 80px;
+  margin-top: 75px;
   margin-bottom: 0;
   font-size: 22px;
   color: #272727;
@@ -1523,7 +1522,7 @@ body.touch .header__menu-list.open {
   font-size: 20px;
   color: #272727;
   text-decoration: none;
-  margin-top: 200px;
+  margin-top: 110px;
 }
 .projects .swiper-slide {
   max-width: 430px;
@@ -1545,6 +1544,56 @@ body.touch .header__menu-list.open {
   margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 8px);
 }
 
+@media only screen and (max-width: 1023px) {
+  .projects {
+    margin-top: 100px;
+  }
+  .projects__title {
+    font-size: 30px;
+  }
+  .projects__list-button {
+    font-size: 12px;
+  }
+  .projects__link {
+    font-size: 12px;
+    margin-left: 30px;
+  }
+  .projects__image {
+    max-width: 165px;
+  }
+  .projects__image-title {
+    font-size: 18px;
+    bottom: 25px;
+    left: 15px;
+  }
+  .projects__content-info {
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+  }
+  .projects__info-title {
+    font-size: 18px;
+  }
+  .projects__info-text {
+    margin-top: 15px;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .projects__info-link {
+    font-size: 12px;
+    margin-top: 20px;
+  }
+  .projects .swiper-slide {
+    max-width: 165px;
+  }
+  .projects__swiper-pagination {
+    margin-top: 20px;
+  }
+  .projects .swiper-free-mode > .swiper-wrapper {
+    margin-top: 25px;
+  }
+}
 .apartment {
   margin-top: 70px;
 }

@@ -39,7 +39,7 @@
         position: relative;
     }
 
-    &__content-image:hover &__content-info{
+    &__content-image:hover &__content-info {
         opacity: 1;
     }
 
@@ -52,8 +52,8 @@
         font-size: 25px;
         color: #FFFFFF;
         z-index: 0;
-      bottom: 50px;
-      left: 40px;
+        bottom: 50px;
+        left: 40px;
     }
 
     &__content-info {
@@ -120,21 +120,21 @@
         }
 
         &__content-image {
-          min-width: 220px;
+            min-width: 220px;
         }
 
         &__image {
-           max-width: 208px;
-           height: 243px;
-          
+            max-width: 208px;
+            height: 243px;
+
         }
 
         &__image-title {
             font-size: 18px;
             max-width: 140px;
-          bottom: 15px;
-          left: 40px;
-          
+            bottom: 15px;
+            left: 40px;
+
         }
 
         &__content-info {
