@@ -1,11 +1,9 @@
 .clients {
     position: relative;
     margin-top: 170px;
-    font-size: 16px;
 
     &__comment {
-        margin-left: 30px;
-        max-width: 525px;
+   max-width: 530px;
     }
 
     &__comment-text {
@@ -30,7 +28,7 @@
         z-index: 2;
     }
 
-    &__image-icon{
+    &__image-icon {
         position: absolute;
         right: 40px;
         top: 50px;
@@ -43,7 +41,7 @@
         color: #FFFFFF;
     }
 
-    &__status{
+    &__status {
         margin-top: 20px;
         margin-bottom: 0;
     }
@@ -58,6 +56,7 @@
         color: #929292;
         margin-bottom: 0;
         margin-top: 34px;
+        font-size: 16px;
     }
 
     &__swiper-pagination {
@@ -82,5 +81,46 @@
 }
 
 @media only screen and (max-width : 1023px) {
-    
+
+    .clients {
+        margin-top: 70px;
+
+        &__comment {
+      max-width: 330px;
+        }
+
+        &__comment-text {
+            padding-top: 50px;
+            padding-right: 30px;
+        }
+
+        &__image-container {
+            padding-left: 30px;
+        }
+
+        &__image {
+            margin-bottom: -40px;
+            max-width: 68px;
+        }
+
+        &__image-icon {
+            right: 30px;
+            top: 30px;
+            max-width: 50px;
+        }
+
+        &__status {
+            margin-top: 12px;
+        }
+
+
+        &__text {
+            line-height: 16px;
+            margin-top: 8px;
+            font-size: 14px;
+        }
+
+
+    }
+
 }

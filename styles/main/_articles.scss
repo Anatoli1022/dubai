@@ -2,9 +2,11 @@
     margin-top: 140px;
     min-height: 470px;
 
+
     &__container {
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
 
     &__title {
@@ -35,14 +37,13 @@
 
     &__content-image {
         position: relative;
-        min-width: 350px;
+    }
+
+    &__content-image:hover &__content-info{
+        opacity: 1;
     }
 
     &__image {
-        position: absolute;
-        max-width: 350px;
-        left: 0;
-        top: 0;
         z-index: -2;
     }
 
@@ -50,27 +51,23 @@
         position: absolute;
         font-size: 25px;
         color: #FFFFFF;
-        margin-top: 265px;
-        margin-left: 38px;
-        z-index: -1;
+        z-index: 0;
+      bottom: 50px;
+      left: 40px;
     }
 
     &__content-info {
+        top: 0;
         position: absolute;
         padding-top: 42px;
         padding-left: 38px;
         padding-right: 38px;
         padding-bottom: 24px;
-        border: 2px solid #FCD54C;
+        border: 3px solid #FCD54C;
         text-align: left;
         background-color: #272727;
         opacity: 0;
         transition: 0.2s;
-
-        &:hover {
-            opacity: 1;
-        }
-
     }
 
     &__info-time {
@@ -105,5 +102,72 @@
 
 
 @media only screen and (max-width : 1023px) {
-    
+
+    .articles {
+        margin-top: 140px;
+        min-height: 295px;
+
+        &__title {
+            font-size: 30px;
+        }
+
+        &__link {
+            font-size: 12px;
+        }
+
+        &__content {
+            margin-top: 40px;
+        }
+
+        &__content-image {
+          min-width: 220px;
+        }
+
+        &__image {
+           max-width: 208px;
+           height: 243px;
+          
+        }
+
+        &__image-title {
+            font-size: 18px;
+            max-width: 140px;
+          bottom: 15px;
+          left: 40px;
+          
+        }
+
+        &__content-info {
+            padding-top: 30px;
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-bottom: 24px;
+
+        }
+
+        &__info-time {
+            font-size: 12px;
+        }
+
+        &__info-title {
+            font-size: 18px;
+            margin-top: 10px;
+            max-width: 140px;
+            line-height: 1.4;
+        }
+
+        &__info-text {
+            margin-top: 12px;
+            font-size: 12px;
+            max-width: 150px;
+            line-height: 0.8;
+        }
+
+        &__info-link {
+            font-size: 12px;
+            margin-top: 10px;
+        }
+    }
+
+
 }
