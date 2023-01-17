@@ -39,13 +39,13 @@
 
     &__list-select {
         border: none;
-
     }
 
     &__item-link {
         text-decoration: none;
         color: #FFFFFF;
         font-size: 14px;
+        transition: 0.2s;
 
         &:hover {
             color: #FCD54C;
@@ -77,11 +77,11 @@
         font-weight: 600;
         font-size: 14px;
         color: #FFFFFF;
+        transition: 0.2s;
 
         &:hover {
             color: #272727;
             background-color: #FCD54C;
-            transition: 0.1s;
         }
     }
 
@@ -116,12 +116,12 @@
         padding-right: 14px;
         border: none;
         cursor: pointer;
+        border: solid 1px #FCD54C;
+        transition: 0.2s;
 
         &:hover {
-            border: solid 1px #FCD54C;
             background-color: #272727;
             color: #FCD54C;
-            transition: 0.1s;
         }
     }
 
@@ -136,6 +136,7 @@
         background: none;
         border: none;
         cursor: pointer;
+        transition: 0.2s;
 
         &:hover {
             color: #FCD54C;
@@ -148,7 +149,7 @@
         font-weight: 600;
         font-size: 16px;
         margin-left: 50px;
-
+        transition: 0.2s;
         &:hover {
             color: #FCD54C;
         }
@@ -157,7 +158,7 @@
     &__menu-btn {
         display: none;
     }
-    
+
 }
 
 @media only screen and (max-width : 1023px) {
@@ -167,7 +168,7 @@
             z-index: 3;
         }
 
-        &__list{
+        &__list {
             display: none;
         }
 
@@ -205,7 +206,7 @@
         }
 
         &__menu-btn.active .menu-btn__button:nth-of-type(1) {
-           display: none;
+            display: none;
         }
 
         &__menu-btn.active .menu-btn__button:nth-of-type(2) {

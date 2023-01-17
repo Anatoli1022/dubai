@@ -1263,6 +1263,7 @@ button.swiper-pagination-bullet {
   text-decoration: none;
   color: #FFFFFF;
   font-size: 14px;
+  transition: 0.2s;
 }
 .header__item-link:hover {
   color: #FCD54C;
@@ -1290,11 +1291,11 @@ button.swiper-pagination-bullet {
   font-weight: 600;
   font-size: 14px;
   color: #FFFFFF;
+  transition: 0.2s;
 }
 .header__menu-link:hover {
   color: #272727;
   background-color: #FCD54C;
-  transition: 0.1s;
 }
 .header__menu-arrow {
   position: absolute;
@@ -1323,12 +1324,12 @@ body.touch .header__menu-list.open {
   padding-right: 14px;
   border: none;
   cursor: pointer;
+  border: solid 1px #FCD54C;
+  transition: 0.2s;
 }
 .header__consultation-button:hover {
-  border: solid 1px #FCD54C;
   background-color: #272727;
   color: #FCD54C;
-  transition: 0.1s;
 }
 .header__language {
   margin-left: 144px;
@@ -1340,6 +1341,7 @@ body.touch .header__menu-list.open {
   background: none;
   border: none;
   cursor: pointer;
+  transition: 0.2s;
 }
 .header__language-button:hover {
   color: #FCD54C;
@@ -1350,6 +1352,7 @@ body.touch .header__menu-list.open {
   font-weight: 600;
   font-size: 16px;
   margin-left: 50px;
+  transition: 0.2s;
 }
 .header__number:hover {
   color: #FCD54C;
@@ -1452,6 +1455,7 @@ body.touch .header__menu-list.open {
   background: none;
   border: none;
   cursor: pointer;
+  transition: 0.2s;
 }
 .projects__list-button:hover {
   color: #FCD54C;
@@ -1462,6 +1466,7 @@ body.touch .header__menu-list.open {
   font-weight: 600;
   font-size: 16px;
   margin-left: 45px;
+  transition: 0.2s;
 }
 .projects__link:hover {
   color: #FCD54C;
@@ -1793,6 +1798,7 @@ body.touch .header__menu-list.open {
   padding-bottom: 25px;
   padding-left: 65px;
   padding-right: 65px;
+  transition: 0.2s;
 }
 .contact__form-buttom:hover {
   color: #FCD54C;
@@ -1848,6 +1854,7 @@ body.touch .header__menu-list.open {
   text-decoration: none;
   font-weight: 600;
   font-size: 16px;
+  transition: 0.2s;
 }
 .articles__link:hover {
   color: #FCD54C;
@@ -1868,6 +1875,7 @@ body.touch .header__menu-list.open {
 }
 .articles__image {
   z-index: -2;
+  max-width: 350px;
 }
 .articles__image-title {
   position: absolute;
@@ -2070,6 +2078,7 @@ body.touch .header__menu-list.open {
 .links {
   padding-top: 70px;
   padding-bottom: 95px;
+  margin-top: 120px;
   border-top: 1px solid rgba(255, 255, 255, 0.3);
 }
 .links__logo {
@@ -2107,6 +2116,7 @@ body.touch .header__menu-list.open {
   font-weight: 300;
   font-size: 18px;
   color: #E8E8E8;
+  transition: 0.2s;
 }
 .links__list-link:hover {
   color: #FCD54C;
@@ -2128,9 +2138,10 @@ body.touch .header__menu-list.open {
   padding-bottom: 12px;
   padding-left: 14px;
   padding-right: 14px;
+  margin-top: 78px;
   border: none;
   cursor: pointer;
-  margin-top: 78px;
+  transition: 0.2s;
 }
 .links__button:hover {
   border: solid 2px #FCD54C;
@@ -2172,6 +2183,7 @@ body.touch .header__menu-list.open {
 }
 .footer .footer__item-link {
   padding-bottom: 2px;
+  transition: 0.2s;
 }
 .footer .footer__item-link:hover {
   border-bottom: 2px solid #FCD54C;

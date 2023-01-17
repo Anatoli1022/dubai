@@ -1,6 +1,7 @@
 .links {
     padding-top: 70px;
     padding-bottom: 95px;
+    margin-top: 120px;
     border-top: 1px solid rgba(255, 255, 255, 0.3);
 
     &__logo {
@@ -44,6 +45,7 @@
         font-weight: 300;
         font-size: 18px;
         color: #E8E8E8;
+        transition: 0.2s;
 
         &:hover {
             color: #FCD54C;
@@ -67,9 +69,10 @@
         padding-bottom: 12px;
         padding-left: 14px;
         padding-right: 14px;
+        margin-top: 78px;
         border: none;
         cursor: pointer;
-        margin-top: 78px;
+        transition: 0.2s;
         &:hover {
             border: solid 2px  #FCD54C;
             background-color: #272727;

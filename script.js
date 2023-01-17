@@ -1,28 +1,24 @@
-var swiper = new Swiper(".mySwiper", {
-  slidesPerView: 3,
-  spaceBetween: 30,
-  freeMode: true,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-});
-
-
 let menuBtn = document.querySelector('.header__menu-btn');
 let menu = document.querySelector('.menu');
 
 menuBtn.addEventListener('click', function () {
-  menuBtn.classList.toggle('active');
-  menu.classList.toggle('active');
+	menuBtn.classList.toggle('active');
+	menu.classList.toggle('active');
 })
 
-
-
+var swiper = new Swiper(".mySwiper", {
+	slidesPerView: 3,
+	spaceBetween: 30,
+	freeMode: true,
+	pagination: {
+		el: ".swiper-pagination",
+		clickable: true,
+	},
+});
 
 /*переделать*/
 
-let isMobile = {
+/*let isMobile = {
 	Android: function() {return navigator.userAgent.match(/Android/i);},
 	BlackBerry: function() {return navigator.userAgent.match(/BlackBerry/i);},
 	iOS: function() {return navigator.userAgent.match(/iPhone|iPad|iPod/i);},
@@ -47,4 +43,4 @@ if(isMobile.any()){
 	}
 }else{
 	body.classList.add('mouse');
-}
+} */

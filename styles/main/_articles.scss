@@ -20,6 +20,7 @@
         text-decoration: none;
         font-weight: 600;
         font-size: 16px;
+        transition: 0.2s;
 
         &:hover {
             color: #FCD54C;
@@ -45,6 +46,7 @@
 
     &__image {
         z-index: -2;
+        max-width: 350px;
     }
 
     &__image-title {
