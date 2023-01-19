@@ -1,0 +1,33 @@
+.hero {
+    margin-top: 30px;
+
+    &__container {
+        position: relative;
+    }
+
+    &__text {
+        position: absolute;
+        bottom: 100px;
+        left: 345px;
+        line-height:1.3;
+    }
+
+    &__rent {
+        font-size: 20px;
+        color: #FFFFFF;
+    }
+
+    &__title {
+        margin-top: 0px;
+        margin-bottom: 0;
+        font-weight: 700;
+        font-size: 60px;
+        max-width: 660px;
+    }
+
+    &__title-yellow {
+        color: #FCD54C;
+    }
+
+
+}

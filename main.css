@@ -1412,7 +1412,44 @@ body.touch .header__menu-list.open {
   }
 }
 .hero {
-  padding-top: 20px;
+  margin-top: 20px;
+}
+.hero__container {
+  position: relative;
+}
+.hero__list {
+  position: absolute;
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  top: 40px;
+  right: 80px;
+}
+.hero__list-item {
+  margin-top: 15px;
+}
+.hero__list-item:first-child {
+  margin-top: 0;
+}
+.hero__item-link {
+  padding-bottom: 3px;
+}
+.hero__item-link:hover {
+  border-bottom: 2px solid #FCD54C;
+}
+.hero__image-icon {
+  max-height: 17px;
+}
+.hero__image-welcome {
+  position: absolute;
+  display: block;
+  top: 280px;
+  left: 415px;
+  right: 744px;
+  bottom: 340px;
+  max-width: 740px;
+  /*пофиксить!!*/
 }
 
 .projects {

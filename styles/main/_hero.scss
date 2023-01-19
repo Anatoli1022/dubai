@@ -1,8 +1,51 @@
 .hero {
-    padding-top: 20px;
+    margin-top: 20px;
+
+    &__container {
+        position: relative;
+    }
+
+    &__list {
+        position: absolute;
+        list-style: none;
+        padding-left: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        top: 40px;
+        right: 80px;
+    }
+
+    &__list-item {
+        margin-top: 15px;
+
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+
+    &__item-link {
+        padding-bottom: 3px;
+
+        &:hover {
+            border-bottom: 2px solid #FCD54C;
+        }
+    }
+
+    &__image-icon {
+        max-height: 17px;
+    }
+
+    &__image-welcome {
+        position: absolute;
+        display: block;
+        top: 280px;
+        left: 415px;
+        right: 744px;
+        bottom: 340px;
+        max-width: 740px;
+        /*пофиксить!!*/
+    }
 }
 
 
-@media only screen and (max-width : 1023px) {
-    
-}
+@media only screen and (max-width : 1023px) {}
