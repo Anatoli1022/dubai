@@ -3,14 +3,14 @@
     margin-top: 170px;
 
     &__comment {
-   max-width: 530px;
+        max-width: 530px;
     }
 
     &__comment-text {
         position: relative;
         padding-top: 104px;
-        padding-right: 45px;
-        padding-left: 30px;
+        padding-right: 40px;
+        padding-left: 40px;
         padding-bottom: 25px;
         border: 1px solid #FCD54C;
 
@@ -86,12 +86,11 @@
         margin-top: 70px;
 
         &__comment {
-      max-width: 330px;
+            max-width: 330px;
         }
 
         &__comment-text {
-            padding-top: 50px;
-            padding-right: 30px;
+            padding-top: 40px;
         }
 
         &__image-container {

@@ -5,7 +5,7 @@
         position: relative;
     }
 
-    &__blok-text {
+    &__block-text {
         position: absolute;
         z-index: 2;
         top: 250px;
@@ -50,10 +50,8 @@
         color: #FCD54C;
     }
 
-    &__wrapper-rectangle {
+    &__rectangle {
         position: absolute;
-        top: -40px;
-        left: -30px;
         width: 124px;
         height: 383px;
         border: 4px solid #FCD54C;
@@ -102,6 +100,7 @@
         padding-top: 50px;
         padding-bottom: 40px;
         padding-left: 60px;
+        padding-right: 30px;
         margin-top: 0;
         margin-bottom: 0;
     }
@@ -121,7 +120,92 @@
         font-size: 60px;
     }
 
+    &__text-number {
+        font-weight: 600;
+        font-size: 16px;
+        color: #FFFFFF;
+        margin-left: 40px;
+        max-width: 130px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
 }
 
 
-@media only screen and (max-width : 1023px) {}
+@media only screen and (max-width : 1560px) {}
+
+
+@media only screen and (max-width : 1023px) {
+
+    .hero {
+
+        &__block-text {
+            position: absolute;
+            z-index: 2;
+            top: 60px;
+            left: 65px;
+        }
+
+        &__text {
+            font-size: 10px;
+        }
+
+        &__title {
+            font-size: 50px;
+            margin-top: 0;
+            max-width: 430px;
+            line-height: 1.5;
+        }
+
+        &__link {
+            font-size: 16px;
+            max-width: 170px;
+            margin-top: 0;
+        }
+
+        &__rectangle {
+            position: absolute;
+            top: 40px;
+            left: 50px;
+            width: 74px;
+            height: 230px;
+        }
+
+        &__list {
+            top: 20px;
+            right: 35px;
+        }
+
+        &__list-item {
+            margin-top: 15px;
+        }
+
+        &__list-number {
+            right: 20px;
+            bottom: -10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 30px;
+            padding-right: 10px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        &__number-item {
+            margin-left: 35px;
+        }
+
+        &__figure {
+            font-size: 40px;
+        }
+
+        &__text-number {
+            font-size: 12px;
+            margin-left: 12px;
+            max-width: 90px;
+        }
+
+    }
+
+}

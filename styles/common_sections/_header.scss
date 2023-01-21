@@ -1,6 +1,6 @@
 .header {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 
 
     &__container {
@@ -11,7 +11,7 @@
     &__block {
         display: flex;
         align-items: center;
-        z-index: 3;
+        z-index: 4;
     }
 
     &__list {
@@ -39,9 +39,7 @@
         }
     }
 
-    &__list-select {
-        border: none;
-    }
+
 
     &__item-link {
         text-decoration: none;
@@ -98,15 +96,7 @@
         border-left: 5px solid transparent;
     }
 
-    body.mouse &__list>li:hover &__menu-list {
-        display: block;
-    }
-
-    body.touch &__menu-list.open {
-        display: block;
-    }
-
-
+   
     &__consultation-button {
         color: #000000;
         font-size: 14px;
@@ -152,6 +142,7 @@
         font-size: 16px;
         margin-left: 50px;
         transition: 0.2s;
+
         &:hover {
             color: #FCD54C;
         }
@@ -166,12 +157,31 @@
 @media only screen and (max-width : 1023px) {
 
     .header {
+        &__logo {
+            max-width: 150px;
+        }
+
+        &__consultation-button {
+            font-size: 12px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 12px;
+            padding-right: 12px;
+        }
+
+        &__language {
+            margin-left: 40px;
+        }
+
+        &__number {
+            margin-left: 20px;
+        }
 
         &__list {
             display: none;
         }
 
-        /* Гамбургер иконка */
+        /* icon gamburger */
         &__menu-btn {
             display: block;
             width: 24px;
@@ -181,7 +191,7 @@
             overflow: hidden;
             background: none;
             border: none;
-            margin-left: 55px;
+            margin-left: 30px;
             cursor: pointer;
         }
 
