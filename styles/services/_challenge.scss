@@ -1,0 +1,57 @@
+.challenge {
+    margin-top: 60px;
+
+    &__title {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-weight: 700;
+        font-size: 25px;
+        color: #FFFFFF;
+    }
+
+    &__text-first {
+        margin-top: 50px;
+        margin-bottom: 0;
+        font-size: 16px;
+        color: #929292;
+    }
+
+    &__title-small {
+        margin-top: 40px;
+        margin-bottom: 0;
+        font-weight: 700;
+        font-size: 18px;
+        color: #FFFFFF;
+    }
+
+    &__text-two {
+        margin-top: 30px;
+        margin-bottom: 0;
+        padding-bottom: 50px;
+        font-size: 16px;
+        color: #929292;
+    }
+
+    &__list {
+        border-top: 1px solid #929292;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 65px;
+        color: #929292;
+        font-size: 16px;
+    }
+
+    &__list-item {
+       margin-top: 10px;
+       :first-child{
+        margin-top: 0;
+       }
+    }
+
+    &__item-text {
+        color: #929292;
+        font-size: 16px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
