@@ -1208,7 +1208,7 @@ button.swiper-pagination-bullet {
     padding-left: 20px;
   }
   .menu__sub-item {
-    margin-top: 15px;
+    margin-top: 20px;
   }
   .menu__sub-item:first-child {
     margin-top: 0;
@@ -1217,7 +1217,7 @@ button.swiper-pagination-bullet {
     text-decoration: none;
     color: #FFFFFF;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 25px;
   }
   .menu__sub-link:hover {
     color: #FCD54C;
@@ -1235,6 +1235,7 @@ button.swiper-pagination-bullet {
 .header__block {
   display: flex;
   align-items: center;
+  z-index: 3;
 }
 .header__list {
   position: relative;
@@ -1365,9 +1366,6 @@ body.touch .header__menu-list.open {
   .header {
     /* Гамбургер иконка */
   }
-  .header__block {
-    z-index: 3;
-  }
   .header__list {
     display: none;
   }
@@ -1417,6 +1415,55 @@ body.touch .header__menu-list.open {
 .hero__container {
   position: relative;
 }
+.hero__blok-text {
+  position: absolute;
+  z-index: 2;
+  top: 250px;
+  left: 330px;
+}
+.hero__text {
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #FFFFFF;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.hero__title {
+  font-weight: 700;
+  font-size: 96px;
+  text-transform: capitalize;
+  max-width: 740px;
+  line-height: 1;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.hero__link {
+  display: block;
+  font-weight: 700;
+  font-size: 20px;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-top: 30px;
+  max-width: 200px;
+}
+.hero__link:hover {
+  color: #FCD54C;
+  transition: 0.2s;
+}
+.hero__title-span {
+  color: #FCD54C;
+}
+.hero__wrapper-rectangle {
+  position: absolute;
+  top: -40px;
+  left: -30px;
+  width: 124px;
+  height: 383px;
+  border: 4px solid #FCD54C;
+  border-right: none;
+  top: 210px;
+  left: 300px;
+}
 .hero__list {
   position: absolute;
   list-style: none;
@@ -1441,15 +1488,30 @@ body.touch .header__menu-list.open {
 .hero__image-icon {
   max-height: 17px;
 }
-.hero__image-welcome {
+.hero__list-number {
   position: absolute;
-  display: block;
-  top: 280px;
-  left: 415px;
-  right: 744px;
-  bottom: 340px;
-  max-width: 740px;
-  /*пофиксить!!*/
+  right: 60px;
+  bottom: -10px;
+  background-color: #272727;
+  list-style: none;
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  padding-left: 60px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.hero__number-item {
+  margin-left: 170px;
+  display: flex;
+  align-items: center;
+}
+.hero__number-item:first-child {
+  margin-left: 0;
+}
+.hero__figure {
+  font-weight: 700;
+  font-size: 60px;
 }
 
 .projects {

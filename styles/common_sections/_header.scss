@@ -11,6 +11,7 @@
     &__block {
         display: flex;
         align-items: center;
+        z-index: 3;
     }
 
     &__list {
@@ -22,6 +23,7 @@
         margin-top: 0;
         margin-bottom: 0;
         padding-left: 0;
+
     }
 
     &__list>li:hover &__menu-list {
@@ -164,9 +166,6 @@
 @media only screen and (max-width : 1023px) {
 
     .header {
-        &__block {
-            z-index: 3;
-        }
 
         &__list {
             display: none;
