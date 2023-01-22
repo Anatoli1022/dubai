@@ -62,7 +62,8 @@
         padding-left: 65px;
         padding-right: 65px;
         transition: 0.2s;
-        &:hover{
+
+        &:hover {
             color: #FCD54C;
         }
     }
@@ -72,25 +73,25 @@
 
     .contact {
         margin-top: 70px;
-    
+
         &__container {
             padding-top: 50px;
             padding-bottom: 60px;
         }
 
         &__text {
-           font-size: 12px;
+            font-size: 12px;
         }
-    
+
         &__title {
             margin-top: 15px;
             font-size: 70px;
         }
-    
+
         &__form {
             margin-top: 30px;
         }
-    
+
         &__form-mail {
             padding-top: 15px;
             padding-bottom: 15px;
@@ -99,12 +100,12 @@
             border: none;
             outline: none;
         }
-    
-    
+
+
         &__form-buttom {
             padding-top: 15px;
             padding-bottom: 15px;
         }
     }
-    
+
 }
