@@ -96,7 +96,7 @@
         border-left: 5px solid transparent;
     }
 
-   
+
     &__consultation-button {
         color: #000000;
         font-size: 14px;
@@ -229,4 +229,25 @@
         }
     }
 
+}
+
+@media only screen and (max-width : 479px) {
+
+    .header {
+        &__logo {
+            max-width: 110px;
+        }
+
+        &__consultation-button {
+            display: none;
+        }
+
+        &__language {
+            display: none;
+        }
+
+        &__number {
+            display: none;
+        }
+    }
 }
