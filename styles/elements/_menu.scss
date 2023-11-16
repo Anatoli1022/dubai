@@ -1,0 +1,131 @@
+/*MENU */
+.menu {
+    display: none;
+}
+
+@media only screen and (max-width : 1023px) {
+
+    /* Меню, которое будет появляться */
+    .menu {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #272727;
+        backdrop-filter: blur(5px);
+        transform: translateX(-100%);
+        transition: transform 0.5s;
+        z-index: 3;
+
+
+        &.active {
+            transform: translateX(0);
+        }
+
+
+
+        &__list {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            list-style: none;
+            padding-left: 0;
+            margin-top: 120px;
+            margin-bottom: 0;
+            margin-bottom: 0;
+        }
+
+
+        &__list-item {
+            margin-top: 20px;
+
+            &:first-child {
+                margin-top: 0;
+            }
+        }
+
+        &__item-link {
+            position: relative;
+            font-weight: 600;
+            font-size: 36px;
+            text-decoration: none;
+            color: #F1F1EE;
+            text-transform: uppercase;
+            color: #FFFFFF;
+
+            &:hover {
+                color: #FCD54C;
+            }
+        }
+
+        &__arrow {
+            position: absolute;
+            left: 80px;
+            top: 20px;
+            width: 0;
+            height: 0;
+            border-top: 10px solid #FFFFFF;
+            border-right: 10px solid transparent;
+            border-left: 10px solid transparent;
+        }
+
+        &__sub-list {
+            list-style: none;
+            margin-left: 0;
+            margin-bottom: 0;
+            padding-top: 10px;
+            padding-left: 20px;
+        }
+
+        &__sub-item {
+            margin-top: 20px;
+
+            &:first-child {
+                margin-top: 0;
+            }
+        }
+
+        &__sub-link {
+            text-decoration: none;
+            color: #FFFFFF;
+            font-weight: 600;
+            font-size: 25px;
+
+            &:hover {
+                color: #FCD54C;
+            }
+        }
+    }
+
+
+
+    /*MENU */
+
+}
+
+
+@media only screen and (max-width : 479px) {
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+     
+
+
+        &__list {
+            padding-bottom: 60px;
+            border-bottom: 1px solid #FCD54C;
+            max-width: 288px;
+        }
+
+      
+    }
+
+
+
+}

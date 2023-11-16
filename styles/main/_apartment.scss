@@ -1,0 +1,49 @@
+.apartment {
+    margin-top: 70px;
+   
+    &__expertise {
+        font-weight: 600;
+        font-size: 18px;
+        color: #FCD54C;
+        margin-top: 0;
+        margin-bottom: 0;
+
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 70px;
+        margin-top: 40px;
+        margin-bottom: 0;
+        line-height: 0.99;
+
+    }
+
+    &__text {
+        margin-top: 35px;
+        margin-bottom: 0;
+        color: #E8E8E8;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width : 1023px) {
+
+    .apartment {
+        &__expertise {
+            font-size: 16px;
+    
+        }
+    
+        &__title {
+            font-size: 30px;
+            margin-top: 14px;
+        }
+    
+        &__text {
+            margin-top: 23px;
+            font-size: 14px;
+        }
+    }
+
+}

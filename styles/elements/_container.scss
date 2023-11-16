@@ -1,7 +1,56 @@
-.container{
-    max-width: 1920px;
+.container {
     margin-left: auto;
     margin-right: auto;
     padding-left: 60px;
     padding-right: 60px;
+
+    &_xl {
+        max-width: 1920px;
+    }
+
+    &_medium {
+        max-width: 1230px;
+    }
+
+    &_xs {
+        max-width: 850px;
+    }
+}
+
+
+@media only screen and (max-width : 1023px) {
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+
+        &_xl {
+            max-width: 730px;
+        }
+
+        &_medium {
+            max-width: 730px;
+        }
+
+        &_xs {
+            max-width: 730px;
+        }
+    }
+
+}
+
+@media only screen and (max-width : 479px) {
+    .container {
+        &_xl {
+            max-width: 308px;
+        }
+
+        &_medium {
+            max-width: 308px;
+        }
+
+        &_xs {
+            max-width: 308px;
+        }
+    }
+
 }

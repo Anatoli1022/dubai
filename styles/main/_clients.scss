@@ -1,0 +1,125 @@
+.clients {
+    position: relative;
+    margin-top: 170px;
+
+    &__comment {
+        max-width: 530px;
+    }
+
+    &__comment-text {
+        position: relative;
+        padding-top: 104px;
+        padding-right: 40px;
+        padding-left: 40px;
+        padding-bottom: 25px;
+        border: 1px solid #FCD54C;
+
+    }
+
+    &__image-container {
+        padding-left: 30px;
+    }
+
+    &__image {
+        position: relative;
+        border-radius: 50%;
+        margin-bottom: -50px;
+        max-width: 112px;
+        z-index: 2;
+    }
+
+    &__image-icon {
+        position: absolute;
+        right: 40px;
+        top: 50px;
+        max-width: 54px;
+    }
+
+    &__name {
+        font-weight: 700;
+        font-size: 25px;
+        color: #FFFFFF;
+    }
+
+    &__status {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: #FCD54C;
+        margin-left: 6px;
+    }
+
+    &__text {
+        color: #929292;
+        margin-bottom: 0;
+        margin-top: 34px;
+        font-size: 16px;
+    }
+
+    &__swiper-pagination {
+        position: relative;
+        margin-top: 40px;
+        margin-left: 17px;
+    }
+
+    .swiper-pagination-bullet {
+        width: 13px;
+        height: 13px;
+        background-color: #FCD54C;
+
+    }
+
+    .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+    .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+        margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 8px);
+    }
+
+
+}
+
+@media only screen and (max-width : 1023px) {
+
+    .clients {
+        margin-top: 70px;
+
+        &__comment {
+            max-width: 330px;
+        }
+
+        &__comment-text {
+            padding-top: 40px;
+        }
+
+        &__image-container {
+            padding-left: 30px;
+        }
+
+        &__image {
+            margin-bottom: -40px;
+            max-width: 68px;
+        }
+
+        &__image-icon {
+            right: 30px;
+            top: 30px;
+            max-width: 50px;
+        }
+
+        &__status {
+            margin-top: 12px;
+        }
+
+
+        &__text {
+            line-height: 16px;
+            margin-top: 8px;
+            font-size: 14px;
+        }
+
+
+    }
+
+}
